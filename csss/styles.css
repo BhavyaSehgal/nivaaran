@@ -10,7 +10,7 @@ body {
 
 .img {
   padding: 20px 0 20px 0;
-  width: auto;
+  width: 50%;
 }
 
 .img2 {
@@ -33,15 +33,15 @@ h2, h3 {
 }
 
 .img1 {
-  width: 25%;
+  width: 40%;
   margin-right: 30px;
 }
 
-ul, li {
-  text-align: left;
+ul, ol {
   color: #1e5f74;
   font-size: 1.5rem;
-  margin: 30px 200px 30px 250px;
+  margin:5%  0 5%  30%;
+  width: 30%;
 }
 
 p {
