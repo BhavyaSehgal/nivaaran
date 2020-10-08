@@ -1,0 +1,145 @@
+body {
+  margin: 0;
+  text-align: center;
+  font-family: 'Merriweather', serif;
+  background: #fdcb9e;
+  text-align: center;
+  width: 100%;
+  height: 100vh;
+}
+
+.img {
+  padding: 20px 0 20px 0;
+  width: auto;
+}
+
+.img2 {
+  padding: 20px 70px 20px 70px;
+  width: auto;
+}
+
+h1 {
+  color: #2d4059;
+  font-size: 3rem;
+  font-weight: bold;
+  text-align: center;
+}
+
+h2, h3 {
+  font-size: 2.5rem;
+  font-weight: normal;
+  color: #251f44;
+  text-align: center;
+}
+
+.img1 {
+  width: 25%;
+  margin-right: 30px;
+}
+
+ul, li {
+  text-align: left;
+  color: #1e5f74;
+  font-size: 1.5rem;
+  margin: 30px 200px 30px 250px;
+}
+
+p {
+  color: #1e5f74;
+  font-size: 1.5rem;
+  line-height: 2;
+  margin: 30px 200px 30px 200px;
+}
+
+.copyright {
+  font-size: 1.25rem;
+}
+
+/* coronavirus live coding */
+.corona-title {
+  font-size: 3rem;
+  font-family: Candara;
+  color: white;
+  margin: 0;
+  padding: 0;
+}
+
+#country-name {
+  font-family: Candara;
+  font-size: 40px;
+  color: red;
+  text-transform: uppercase;
+  padding: 0;
+  margin: 0;
+  margin-bottom: 10px;
+}
+
+.coronavirus-box {
+  width: 400px;
+  height: auto;
+  text-align: center;
+  margin: auto;
+  border: 1px solid red;
+}
+
+.coronavirus-box h4 {
+  font-family: Candara;
+  font-size: 16px;
+  margin-bottom: 10px;
+  color: #ccc;
+}
+
+.coronavirus-box h5 {
+  padding: 0;
+  margin: 0;
+  float: left;
+  font-family: verdana;
+  font-size: 25px;
+}
+
+.coronavirus-box i {
+  font-size: 35px;
+  float: right;
+  color: yellow;
+}
+
+.coronavirus-box .corona-box1, .corona-box2 {
+  width: 100%;
+  min-height: 80px;
+}
+
+.corona-box1 div:nth-child(1),
+.corona-box2 div:nth-child(1),
+.corona-box1 div:nth-child(2),
+.corona-box2 div:nth-child(2) {
+  width: 100%;
+  height: 100px;
+  float: left;
+  padding: 10px 25px;
+  background: #000099;
+  box-shadow: 7px 7px 15px rgba(0, 0, 0, .15), -7px -7px 20px rgba(0, 0, 0, 1), 0px 0px 4px rgba(0, 0, 0, .2) !important;
+}
+
+.myButton {
+  box-shadow: 0px 0px 0px 2px #9fb4f2;
+  background-color: #355894;
+  border-radius: 10px;
+  border: 1px solid #4e6096;
+  display: inline-block;
+  cursor: pointer;
+  color: #ffffff;
+  font-family: Arial;
+  font-size: 19px;
+  padding: 12px 37px;
+  text-decoration: none;
+  text-shadow: 0px 1px 0px #283966;
+  margin: 20px 0 20px 0;
+
+  &:hover {
+    background-color: #2790b0;
+  }
+
+  &:active {
+    position: relative;
+    top: 1px;
+}
